@@ -1,6 +1,6 @@
 import Barcode from 'react-barcode';
 import { Package } from 'lucide-react';
-import logo from './assets/logo.jpg'; 
+import logo from './assets/logo.jpg';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <div className="flex justify-between items-center border-b border-gray-200 pb-4">
           <div className="text-xl font-bold">DHL EXPRESS WORLDWIDE</div>
           <div className="text-3xl font-bold">TDY</div>
-          <img src={logo} alt="DHL" className="h-8" /> 
+          <img src={logo} alt="DHL" className="h-8" />
         </div>
 
         {/* Shipper's Details */}
@@ -25,12 +25,13 @@ function App() {
                 <p className='font-bold'>From: </p>
               </div>
               <div>
-                <p>P.O.Box 302891,</p>
-                <p>Damascus,syrian</p>
-                <p>Arab Republic</p>
-                <p>BILL JOE DARDEN</p>
-                <p>Tel:+19842210976</p>
+                <p>412 Glasgow Road,</p>
+                <p>C/O S&B Removals Ltd,</p>
+                <p>Clydebank, Scotland, G81 1PW</p>
+                <p>Gerard butler James</p>
+                <p>Tel:+1 (850) 610-3154 </p>
               </div>
+                 
             </div>
           </div>
           <div className="text-right">
@@ -50,10 +51,10 @@ function App() {
               <p className='font-bold'>To: </p>
             </div>
             <div>
-              <p>2644 UIster Court </p>
-              <p>Waldorf MD 20602</p>
-              <p>LOLITA ANN CLARK</p>
-              <p>Tel:+17037723873</p>
+              <p>304 E 24th Ct</p>
+              <p>Owasso, Ok 74055</p>
+              <p>Shannon Brand</p>
+              <p>Tel:+918 853-1212 </p>
               <p></p>
             </div>
           </div>
